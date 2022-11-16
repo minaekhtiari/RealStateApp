@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailFragment"
+    android:background="@color/dark_gray">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_houses"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/city_search"
+        android:layout_alignParentBottom="true" />
+    <ImageView
+        android:id="@+id/img_view_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/city_search"
+        android:background="@drawable/empty"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true" />
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/city_search"
+        android:background="@drawable/roundshape"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/text_real_estate"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:queryHint="Search for a home" />
+
+    <TextView
+        android:id="@+id/text_real_estate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/bold"
+        android:gravity="center"
+        android:text="@string/real_estate"
+        android:textColor="@color/strong"
+        android:textSize="@dimen/title1" />
+
+
+</RelativeLayout>
+
+
+
+

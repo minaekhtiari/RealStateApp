@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Real Estate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_compose_sample">ComposeSampleActivity</string>
+    <string name="title_activity_sample_compose">SampleComposeActivity</string>
+    <string name="real_estate">REAL ESTATE</string>
+    <string name="home">Home</string>
+    <string name="info">Info</string>
+    <string name="about">ABOUT</string>
+    <string name="design_and_development">Design and Development</string>
+    <string name="by_real_estate">by Real Estate</string>
+    <string name="web_address"><a href="https://www.google.com">Website</a></string>
+    <string name="description">Description</string>
+    <string name="location">Location</string>
+    <string name="km">km</string>
+    <string name="about_Real_Estate">DTT is not your average software development company because besides technical knowledge we also have a solid marketing background. With passion, we work on a perfect mix of technology, strategy, and creativity. DTT was established in 2010, and in a short period we have made significant steps forward; a substantial portfolio, excellent credentials, respectable clients, and most importantly a competent and driven team.</string>
+</resources>
